@@ -8,7 +8,6 @@ USER root
 ENV HOME /root
 ENV NODE_VER v4.4.2
 
-
 RUN git clone https://github.com/creationix/nvm.git $HOME/.nvm
 
 RUN echo '. ~/.nvm/nvm.sh' >> $HOME/.profile
